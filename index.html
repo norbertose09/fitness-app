@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Company</title>
+</head>
+<body class="font-body">
+     <!-- Navbar-->
+     <nav class="relative container mx-auto p-6">
+        <!-- Flex container-->
+        <div class="flex items-center justify-between">
+
+            <!-- Logo-->
+            <div class="pb-1">
+                <h1 class="text-3xl font-bold"><span class="text-sky-300">X</span><span class="text-blue-900">Fitness</span></h1>
+            </div>
+
+
+            <!-- Menu -->
+            <div class="hidden md:flex space-x-12">
+                <!-- <a href="" class="hover:text-darkGrayishBlue font-bold">Pricing</a> -->
+                <a href="product.html" class="hover:text-darkGrayishBlue font-bold">Products</a>
+                <a href="" class="hover:text-darkGrayishBlue font-bold">You & Health</a>
+                <a href="" class="hover:text-darkGrayishBlue font-bold">Community</a>
+                <a href="" class="hover:text-darkGrayishBlue font-bold">About Us</a>
+
+            </div>
+
+            <!-- Button-->
+            <a href="" class="hidden md:block p-3 px-6 pt-3 text-white bg-sky-300 rounded-full baseline hover:bg-sky-400 text-white transition ease-out duration-500">
+                Find A Gym
+            </a>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!--Mobile menu-->
+         <div class="md:hidden">
+            <div id="menu" class="hidden absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <!-- <a href="">Pricing</a> -->
+                <a href="">Products</a>
+                <a href="">You & Health</a>
+                <a href="">Community</a>
+                <a href="">About Us</a>
+
+                
+            </div>
+        </div>
+    </nav>
+
+        <section id="hero">
+            <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 border-b-2 border-gray-200">
+                <div class="flex flex-col mb-16 space-y-12 md:w-1/2 w-full" data-aos="fade-right">
+                    <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">The body achieves what the mind believes...</h1>
+                    <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">We'll point out the nearest gym close to you and give you the necessary tips to achieve your dream of fitness.</p>
+
+                    <div class="flex justify-center md:justify-start">
+                        <a href="" class="md:block p-3 px-6 pt-3 text-white bg-sky-300 rounded-full baseline hover:bg-sky-400 text-white transition ease-out duration-500">
+                            Get Started
+                        </a>
+                </div>
+                </div>
+                <div class="md:w-1/2 pb-8 w-full" data-aos="fade-left">
+                    <img src="img/undraw_fitness_stats_sht6.svg" alt="hero image" class="">
+                </div>
+            </div>
+
+        </section>
+       
+
+
+   <section id="tracking">
+    <div class="container mx-auto flex flex-col md:items-center space-y-12 md:space-y-0 border-b-2 border-gray-200 mt-12">
+
+        <div class="flex flex-col items-center space-y-6">
+           
+            <h1 class="text-3xl max-w-md font-bold text-center mx-8">Enter your location to find a GYM close to you</h1>
+            <form>
+                <input placeholder="Enter your Location" class="border-b-2 border-sky-300 px-12 py-4 mb-12">
+            </form>
+
+        </div>
+
+    </div>
+   </section>
+
+   <section id="products">
+    <div class="container mx-auto mt-12">
+        <h1 class="text-4xl font-bold text-center uppercase mb-10 text-gray-600">shop with us<span class="border-b-2 border-gray-300"></span></h1>
+        <div class="grid md:grid-cols-3 gap-10 mx-6">
+        <div class="bg-white rounded shadow-md overflow-hidden hover:shadow-lg">
+            <img src="https://media.istockphoto.com/id/1420291548/photo/gym-set-black-dumbbells-black-and-white-sneakers-sports-presentation-template-with-white.jpg?s=612x612&w=0&k=20&c=15giVM9_cvUFpkmCthCwM89DyF6nLYC3rLyYJxPVr7s=" alt="product" class="w-full h-48 object-cover">
+            <div class="m-4">
+            <p class="text-lg font-bold text-md text-gray-800">Judi Shorts</p>
+            <p class="text-sm text-gray-500">$20</p>
+            </div>
+        </div>
+
+        <div class="bg-white rounded shadow-md overflow-hidden hover:shadow-lg">
+            <img src="https://media.istockphoto.com/id/622918790/photo/leg-press-exercise.jpg?b=1&s=170667a&w=0&k=20&c=y2i_W01YiLfOwb2MUdBMVcqk6oezY2G2cBBkuCFOqAg=" alt="product" class="w-full h-48 object-cover">
+            <div class="m-4">
+                <p class="text-lg font-bold text-md text-gray-800">Judi Shorts</p>
+                <p class="text-sm text-gray-500">$20</p>
+                </div>
+        </div>
+
+        <div class="bg-white rounded shadow-md overflow-hidden hover:shadow-lg">
+            <img src="https://media.istockphoto.com/id/1278592190/photo/blank-black-and-white-sport-hoodie-with-hood-mockup-set.jpg?b=1&s=170667a&w=0&k=20&c=yMoR0W-_t8qR7_77vs5QJYruldmFNZW59530uyFTmRY=" alt="product" class="w-full h-48 object-cover">
+            <div class="m-4">
+                <p class="text-lg font-bold text-md text-gray-800">Judi Shorts</p>
+                <p class="text-sm text-gray-500">$20</p>
+                </div>
+        </div>
+
+        <a href="product.html" class="text-gray-600 text-md font-bold pb-8 text-center">Load More...</a>
+    
+    </div>
+
+    </div>
+   </section>
+
+
+   <section id="cta" class="bg-sky-300">
+    <div class="container mx-auto flex flex-col items-center md:flex-row md:space-y-0  space-y-10 md:space-x-12 justify-between px-6 py-24">
+
+        <h1 class="text-5xl text-center md:text-4xl max-w-xl font-bold text-white">Take a test on how healthy you are today</h1>
+        <a href="#" class="bg-white text-sky-300 rounded-full p-3 py-2 px-6 baseline text-xl hover:bg-sky-400 hover:text-white cursor-pointer uppercase transition ease-out duration-500">Take Test</a>
+    </div>
+
+   </section>
+
+   <section id="footer" class="bg-black">
+    <div class="container mx-auto flex flex-col-reverse md:flex-row space-y-8 justify-between md:space-y-0 py-10 px-6">
+       
+
+     
+           <div class="flex flex-col-reverse md:flex-col items-center justify-between space-y-12 md:space-y-0 md:items-start">
+          
+
+
+            <!--copyright-->
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+                Copyright &copy; 2022, All Rights Reserved
+
+            </div>
+
+
+             <!-- Logo-->
+             <div class="">
+                <h1 class="text-3xl font-bold"><span class="text-sky-300">X</span><span class="text-blue-900">Fitness</span></h1>
+            </div>
+             <!--Soial links container-->
+             <div class="flex justify-center space-x-4">
+                <a href="">
+                    <img src="img/icon-facebook.svg" alt="" class="h-8" />
+                </a>
+                <a href="">
+                    <img src="img/icon-instagram.svg" alt="" class="h-8" />
+                </a>
+                <a href="">
+                    <img src="img/icon-twitter.svg" alt="" class="h-8" />
+                </a>
+                <a href="">
+                    <img src="img/icon-pinterest.svg" alt="" class="h-8" />
+                </a>
+                <a href="">
+                    <img src="img/icon-youtube.svg" alt="" class="h-8" />
+                </a>
+            </div>
+
+                                    
+           </div>
+
+
+           <div class="flex justify-around space-x-32">
+            <div class="flex flex-col text-white space-y-3">
+                <a href="">Products</a>
+                <a href="">You & Health</a>
+                <a href="">Community</a>
+                <a href="">About Us</a>
+
+            </div>
+
+            <div class="flex flex-col text-white hidden md:block">
+                <a href="" class="rounded-full bg-sky-300 text-white baseline px-6 py-2 p-3 hover:bg-sky-400 hover:text-white transition ease-out duration-500">FIND A GYM</a>
+             
+
+            </div>
+           </div>
+      
+    </div>
+   </section>
+
+    <!-- <div class="mt-32">
+
+    </div> -->
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: false
+    })
+    </script>
+</body>
+</html>
