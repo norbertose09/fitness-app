@@ -1274,6 +1274,29 @@ video {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+body {
+  background-image: url('../img/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% -25%;
+}
+
+#cta {
+  background-image: url('../img/bg-simplify-section-desktop.svg');
+  background-repeat: no-repeat;
+}
+
+@media(max-width: 576px) {
+  body {
+    background-position: 50px -50px ;
+    background-size: 500px;
+  }
+
+  #cta {
+    background-image: url('../img/bg-simplify-section-mobile.svg');
+  }
+}
+
 /* Hamburger menu  */
 
 .hamburger {
@@ -1485,3 +1508,5 @@ video {
     line-height: 2.5rem;
   }
 }
+
+
