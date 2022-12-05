@@ -1,7 +1,7 @@
-# gym website
+# Fitness website
 This is the client side of this website built with HTML, tailwindcss.
 
-It has a search feature to find the nearest gym in your location,
+It has a search feature to find the nearest gym in your location and
 allows you shop from available products which consists of gym equipments and wears.
 
-visit online at <a href="gym-prototype.onrender.com">gym-prototype.onrender.com</a>
+visit online at <a href="https://gym-prototype.onrender.com">gym-prototype.onrender.com</a>
